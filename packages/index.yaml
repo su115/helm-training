@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  myapp:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-05-21T16:54:53.833348398+03:00"
+    description: Helm chart
+    digest: 09c9b609af525ee70eeb8adfccf929b887d6f0e32edce758fd8a47f3fb2ed71f
+    name: myapp
+    urls:
+    - https://su115.github.io/helm-training/packages/myapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-05-21T16:54:53.833130059+03:00"
