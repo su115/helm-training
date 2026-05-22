@@ -6,10 +6,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - {{ .Release.Name }}.example.com
+    - nginx.example.app
     secretName: tls-secret
   rules:
-  - host: {{ .Release.Name }}.example.com
+  - host: nginx.example.app
     http:
       paths:
       - path: /
