@@ -1,0 +1,16 @@
+ipAddressPools:
+  - name: baremetal-pool          # Logical name referenced by services and advertisements
+    addresses:
+      - 192.168.100.230-192.168.100.250
+
+l2Advertisements:
+  - ipAddressPools:
+      - baremetal-pool            # Advertise this pool via ARP on the local network segment
+
+frr-k8s:
+ prometheus:
+  serviceMonitor:
+    enabled: false
+
+crds:
+    validationFailurePolicy: Ignore
