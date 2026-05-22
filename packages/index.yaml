@@ -3,7 +3,16 @@ entries:
   myapp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-05-22T18:57:18.711047703+03:00"
+    created: "2026-05-22T19:07:58.191450387+03:00"
+    description: Helm chart
+    digest: b73b6072e44e952705fd2b7cd56d0bddb525603ff75e12587efae9018db21e7e
+    name: myapp
+    urls:
+    - https://su115.github.io/helm-training/packages/myapp-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-05-22T19:07:58.191357491+03:00"
     description: Helm chart
     digest: 6f7965788c58f4b8f1d5fd3bb9261a01d0f6b67310d5442785e5749c7ee8ef19
     name: myapp
@@ -12,7 +21,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-05-22T18:57:18.710897343+03:00"
+    created: "2026-05-22T19:07:58.191253614+03:00"
     description: Helm chart
     digest: 87c7c7952ea1583cfd8e06b2bbf011b542bd8e3f476bdc9fc5f969a245d3d9a6
     name: myapp
@@ -21,7 +30,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-05-22T18:57:18.710635332+03:00"
+    created: "2026-05-22T19:07:58.191148115+03:00"
     description: Helm chart
     digest: dd2de0baf0040754e05e5b43e6735771d9f874fd9a1e09fae6d09ec4ef4fa85d
     name: myapp
@@ -30,11 +39,11 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-05-22T18:57:18.710306385+03:00"
+    created: "2026-05-22T19:07:58.191025973+03:00"
     description: Helm chart
     digest: 09c9b609af525ee70eeb8adfccf929b887d6f0e32edce758fd8a47f3fb2ed71f
     name: myapp
     urls:
     - https://su115.github.io/helm-training/packages/myapp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-22T18:57:18.709608269+03:00"
+generated: "2026-05-22T19:07:58.190843844+03:00"
