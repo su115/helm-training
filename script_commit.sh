@@ -38,7 +38,7 @@ if [[ "$CONFIRM" =~ ^[Yy]$ ]]; then
     git push origin master
     
     sleep 5
-    helm update
+    helm repo update
 else
     echo "Cancelled"
 fi
