@@ -21,7 +21,7 @@ kubectl apply -f metalLB/ip-pool.yaml
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 kubectl create namespace ingress-ns
 helm install ingress-nginx ingress-nginx/ingress-nginx -n ingress-ns
-
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
 
 
 
